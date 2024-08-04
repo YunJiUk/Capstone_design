@@ -1,2 +1,2 @@
-# Capstone_design
+# Capstone_Design
 Semiconductor Wafer Transfer Robot
