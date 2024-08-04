@@ -1,0 +1,26 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Mon May 20 01:18:54 2024
+| Host         : YunJiUk running 64-bit major release  (build 9200)
+| Command      : upgrade_project -migrate_output_products
+| Project_Path : C:/Users/yjoo1/OneDrive/πŸ≈¡ »≠∏È/¥Î«–/ƒ∏Ω∫≈Êµ¿⁄¿Œ/final/final/final.xpr
+--------------------------------------------------------------------------------------------------------
+
+Project Status Summary
+
+1. Project IP Status
+--------------------
+This project contains 1 IP and 0 Block Designs.
+
+
+1.1 Project IP Instances
++-----------+-------------------------+-------------------------------------+-------------------------------------+
+| Instance  | Status                  | Reason                              | Recommendation                      |
+| Name      |                         |                                     |                                     |
++-----------+-------------------------+-------------------------------------+-------------------------------------+
+| clk_wiz_0 | Will be Migrated.       |                                     |                                     |
++-----------+-------------------------+-------------------------------------+-------------------------------------+
+
+
+

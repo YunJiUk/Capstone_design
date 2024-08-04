@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/basic"
+    tools:context=".MainActivity">
+
+
+
+
+    <ImageView
+        android:id="@+id/btnOn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/off"
+        tools:ignore="MissingConstraints"
+
+        android:translationX="143dp"
+        android:translationY="35dp"/>
+
+    <ImageView
+        android:id="@+id/btnStop"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/emergency"
+        tools:ignore="MissingConstraints"
+
+        android:translationX="88dp"
+        android:translationY="460dp"/>
+
+    <ImageView
+
+        android:layout_width="330dp"
+        android:layout_height="30dp"
+        android:src="@drawable/foup_name"
+        tools:ignore="MissingConstraints"
+
+        android:translationX="17dp"
+        android:translationY="300dp"/>
+
+    <ImageView
+        android:id="@+id/Imagefoup1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/foup1_000"
+        tools:ignore="MissingConstraints"
+
+        android:translationX="6dp"
+        android:translationY="350dp"/>
+
+    <ImageView
+        android:id="@+id/Imagefoup2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/foup2_00"
+        tools:ignore="MissingConstraints"
+
+        android:translationX="130.5dp"
+        android:translationY="350dp"/>
+    <ImageView
+
+        android:id="@+id/Imagefoup3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/foup2_00"
+        tools:ignore="MissingConstraints"
+
+        android:translationX="255dp"
+        android:translationY="350dp"/>
+
+    <ImageView
+        android:id="@+id/btnConnect"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:src="@drawable/bluetooth_icon"
+        tools:ignore="MissingConstraints"
+
+        android:translationX="296dp"
+        android:translationY="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="10dp"
+        android:translationY="50dp"
+        android:textColor="#FF000000"
+        android:textSize = "20dp"
+        android:layout_marginTop="10dp"
+        android:text="*온도 :"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF000000"
+        android:translationX="10dp"
+        android:translationY="90dp"
+        android:textSize = "20dp"
+        android:layout_marginTop="10dp"
+        android:text="*습도 :"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvReceiveData2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF000000"
+        android:layout_marginTop="10dp"
+        android:textSize = "20dp"
+        android:text=""
+        android:translationX="70dp"
+        android:translationY="92dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvReceiveData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF000000"
+        android:layout_marginTop="10dp"
+        android:textSize = "20dp"
+        android:text=""
+        android:translationX="70dp"
+        android:translationY="52dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <Button
+        android:id="@+id/btnSendData"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="입력"
+        tools:ignore="MissingConstraints"
+
+        android:textStyle="bold"
+
+
+        android:translationX="259dp"
+        android:translationY="160dp"
+       />
+
+    <Button
+        android:id="@+id/btnSendData2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="입력"
+        tools:ignore="MissingConstraints"
+
+        android:translationX="259dp"
+        android:translationY="210dp"/>
+
+    <EditText
+        android:id="@+id/tvSendData"
+        android:layout_width="240dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="옮길 Wafer 위치를 입력하세요(Foup 번호, 칸 번호)"
+        android:textSize = "11dp"
+        android:textColorHint="#C8C8C8"
+
+        android:textColor="#ff000000"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/edit_text_pattern"
+
+        android:translationX="16dp"
+        android:translationY="160dp"/>
+
+    <EditText
+        android:id="@+id/tvSendData2"
+        android:layout_width="240dp"
+        android:layout_height="47dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#ff000000"
+        android:hint= "목표 Wafer 위치를 입력하세요(Foup 번호, 칸 번호)"
+        android:textSize = "11dp"
+        android:background="@drawable/edit_text_pattern"
+        android:textColorHint="#C8C8C8"
+
+        android:translationX="16dp"
+        android:translationY="210dp"
+        tools:ignore="MissingConstraints"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
